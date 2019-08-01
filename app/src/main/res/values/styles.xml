@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="Theme">
+        <attr name="styleSubView" format="reference"/>
+        <attr name="styleSubSubView" format="reference"/>
+        <attr name="styleSubSubSubView" format="reference"/>
+    </declare-styleable>
+
+    <style name="DarkTheme">
+        <item name="styleSubView">@style/DarkSubView</item>
+        <item name="styleSubSubView">@style/DarkSubSubView</item>
+
+    </style>
+
+    <style name="LightTheme">
+        <item name="styleSubView">@style/LightSubView</item>
+        <item name="styleSubSubView">@style/LightSubSubView</item>
+
+    </style>
+
+
+
+    <style name="DarkSubView">
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="LightSubView">
+        <item name="android:background">@android:color/holo_green_dark</item>
+    </style>
+
+
+    <style name="DarkSubSubView">
+        <item name="android:background">@android:color/holo_red_dark</item>
+    </style>
+
+    <style name="LightSubSubView">
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="SubSubSubView">
+        <item name="android:background">@android:color/holo_blue_bright</item>
+    </style>
+
+
+</resources>
